@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Google</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: yellowgreen;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        section.content {
+            background-color: blue;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 70pt;
+            margin-bottom: 20px;
+        }
+
+        form {
+            background-color: orange;
+            width: 70%;
+            min-width: 500px;
+            height: 50px;
+            line-height: 50px;
+            margin: 0 auto;
+            line-height: 50px;
+            text-align: center;
+        }
+        form  span.search-icon { display: inline-block;
+            width: 10%;
+            height: 30px;
+            line-height: 30px;
+            background-color: aqua;
+        }
+           
+        
+
+        form  input.search-entry{
+            width: 90%;
+            height: 30px;
+            border: none;
+            background-color: blanchedalmond;
+        }
+
+        form  input.search-btn{
+            width: 10%;
+            width: 30px;
+            border-radius: 15px;
+            border: none;
+            background-color: palevioletred;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <header></header>
+    <section class="content">
+        <h1>
+            <span style="color: lightblue;">G</span><span style="color: blueviolet;">o</span><span style="color: chartreuse;">o</span><span style="color: brown;">g</span><span style="color: khaki;">l</span><span style="color: olive;">e</span>
+        </h1>
+        <form action="https://www.google.com/search">
+            <div class="entry-group">
+            <span class="search-icon">🔎</span>
+            <input class="search-entry" type="text" name="q" id="" placeholder="Find your idea">
+        
+            </div>
+            <input class="search-btn" type="submit" value="👌">
+        </form>
+    </section>
+    <footer></footer>
+</body>
+</html>
